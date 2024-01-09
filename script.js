@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array of placeholder answers
     var placeholderAnswers = [
         "YESSSSSSSSSSSSS. OMG YES YES YES. YES!",
+        "ADFJADJIJFADJDJLKSDJSLKJFDLKSJLSKJKFL. yes. lol.",
         "Interesting...listen...your feelings are valid. I support. Yes.",
         "I think you should text me to confirm what I think but I'll probably say yes.",
         "Abso-freaking-lutely. 100% yes.",
