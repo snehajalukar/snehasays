@@ -3,13 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Tiny Web App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sneha Says</title>
 </head>
 <body>
     <header>
-        <h1 id="main-heading">There will be something here shortly.</h1>
+        <h1 id="main-heading">Sneha Says (Ask Any Yes or No Question)</h1>
     </header>
     <script src="script.js"></script>
 </body>
+
+
+<div class="content">
+    <h3>Do you ever want to ask Sneha a question but either:</h3>
+    <ul>
+        <li>1. Her brain isn't working</li>
+        <li>2. You don't like the answer she gave you</li>
+        <li>3. She ghosted you (oops, not intentional)</li>
+        <li>4. She's fast asleep</li>
+    </ul>
+    <h3>That's what this website is for! Ask any yes or no question:</h3>
+</div>
+
+<div class="question-section">
+    <label for="question">Your Question:</label>
+    <textarea id="question" placeholder="Type your question here..."></textarea>
+    <br>
+    <button id="ask-button">Ask Sneha</button>
+</div>
+
+<div class="answer-section">
+    <h4>Your Question:</h4>
+    <div id="user-question"></div>
+
+    <h4>Your Answer:</h4>
+    <div id="sneha-answer"></div>
+</div>
+
+<footer>
+    <p>Built By <a href="http://snehacodes.com" target="_blank">Sneha</a></p>
+</footer>
+
 </html>
