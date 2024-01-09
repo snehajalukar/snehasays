@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "YESSSSSSSSSSSSS. OMG YES YES YES. YES!",
         "Interesting...listen...your feelings are valid. I support. Yes.",
         "I think you should text me to confirm what I think but I'll probably say yes.",
-        "No. Just no.",
+        "Abso-freaking-lutely. 100% yes.",
+        "No. Just no. That's not the vibe.",
         "NOOOOOOOOOOOOOOOOOOOO",
         "Sneha would say no.",
-        "Sneha would definitely say no.",
-        "Sneha's magic answering tool says: Ask again."
+        "Sneha would DEFINITELY say no. Like, literally.",
+        "Sneha's magic answering tool says: Ask again. Or just ask her."
     ];
 
     askButton.addEventListener("click", function() {
